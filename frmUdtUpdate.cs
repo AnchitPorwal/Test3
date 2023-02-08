@@ -92,7 +92,7 @@ namespace BeeSys.Wasp3D.Utility
         /// When you add, delete and update operation in UDT.
         /// </summary>
         /// <param name="objUdtArgs"></param>
-        private void _serviceUDTHandler_OnResponse(UdtArgs objUdtArgs)
+        private void _serviceUDTHandler_OnResponse1(UdtArgs objUdtArgs)
         {
             try
             {
