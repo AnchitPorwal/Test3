@@ -42,7 +42,7 @@ namespace BeeSys.Wasp3D.Utility
 
 
         #region Establish Connection with KC
-        private void btnConnect1_Click(object sender, EventArgs e)
+        private void btnConnect_Click(object sender, EventArgs e)
         {
             
             try
