@@ -57,8 +57,6 @@ body:
     id: completedbuild
     attributes:
       label: Completed Build 
-      description: Completed Build 
-      placeholder: ex. email@example.com
     validations:
       required: false
   - type: checkboxes
