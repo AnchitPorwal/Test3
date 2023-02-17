@@ -5,7 +5,7 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-  
+
   - type: textarea
     id: Description
     attributes:
@@ -67,7 +67,7 @@ body:
       label: VerifiedByQA 
       options:
         - label: Verified By QA
-        required: true
+          required: true
   - type: input
     id: completedbuild
     attributes:
