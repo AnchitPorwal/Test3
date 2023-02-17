@@ -64,10 +64,9 @@ body:
   - type: checkboxes
     id: verifiedqa
     attributes:
-      label: VerifiedByQA 
       options:
         - label: Verified By QA
-          required: true
+          required: false
   - type: input
     id: completedbuild
     attributes:
