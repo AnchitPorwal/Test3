@@ -67,7 +67,7 @@ body:
   - type: checkboxes
     id: verifiedqa
     attributes:
-      label: Verified By QA 
+      label: VerifiedByQA 
       - label: Verified By QA
       options:
           required: true
