@@ -5,10 +5,7 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+  
   - type: textarea
     id: Description
     attributes:
@@ -67,7 +64,8 @@ body:
   - type: checkboxes
     id: verifiedqa
     attributes:
-      label: Verified By QA
+      label: Verified By QA 
+      - label: Verified By QA
       options:
           required: true
   - type: input
