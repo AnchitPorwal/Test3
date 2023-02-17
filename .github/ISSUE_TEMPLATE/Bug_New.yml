@@ -101,7 +101,7 @@ body:
     attributes:
       label: Reported Build 
     validations:
-      required: false        
+      required: false
   - type: input
     id: completedbuild
     attributes:
