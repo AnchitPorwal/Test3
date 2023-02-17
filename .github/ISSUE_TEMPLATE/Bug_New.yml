@@ -52,15 +52,13 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: HOD
+    id: customername
     attributes:
-      label: HOD
+      label: Customer Name
       multiple: true
       options:
-        - Anchit Porwal
-        - Shilpi Rustagi
-        - Mandeep
-        - Vipul
+        - DD
+        - ABP
   - type: checkboxes
     id: verifiedqa
     attributes:
@@ -68,10 +66,44 @@ body:
       options:
         - label: Verified By QA
           required: false
+  - type: checkboxes
+    id: customerreorted
+    attributes:
+      label: CustomerReported
+      options:
+        - label: Customer Reported
+          required: false
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      multiple: false
+      options:
+        - Low
+        - Normal
+        - High
+        - Critical
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      multiple: false
+      options:
+        - Low
+        - Normal
+        - High
+        - Critical        
+  - type: input
+    id: reportedbuild
+    attributes:
+      label: Reported Build 
+    validations:
+      required: false        
   - type: input
     id: completedbuild
     attributes:
       label: Completed Build 
     validations:
       required: false
+      
 
