@@ -52,6 +52,8 @@ body:
         - Databuzz
         - Hivemanager
         - MOS
+   validations:
+      required: true
   - type: dropdown
     id: HOD
     attributes:
