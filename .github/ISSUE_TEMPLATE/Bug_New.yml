@@ -52,7 +52,7 @@ body:
         - Databuzz
         - Hivemanager
         - MOS
-   validations:
+    validations:
       required: true
   - type: dropdown
     id: HOD
