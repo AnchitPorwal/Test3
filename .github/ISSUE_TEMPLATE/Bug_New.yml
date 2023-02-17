@@ -26,6 +26,32 @@ body:
         - 6.1
     validations:
       required: true
+  - type: edition
+    id: edition
+    attributes:
+      label: Edition
+      multiple: true
+      options:
+        - Xpress
+        - Pro
+        - Enterprise
+  - type: component
+    id: component
+    attributes:
+      label: Component
+      multiple: false
+      options:
+        - KC
+        - Common
+        - Playout
+        - Designer
+        - Vset
+        - Sting Server
+        - R2D
+        - Sting Client
+        - Databuzz
+        - Hivemanager
+        - MOS
   - type: dropdown
     id: HOD
     attributes:
@@ -36,6 +62,10 @@ body:
         - Shilpi Rustagi
         - Mandeep
         - Vipul
+  - type: checkboxes
+    id: verifiedqa
+    attributes:
+      label: Verified By QA
   - type: input
     id: completedbuild
     attributes:
