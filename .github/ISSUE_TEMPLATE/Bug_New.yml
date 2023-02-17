@@ -3,9 +3,10 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - vipul
+validations:
+  required: true
 body:
-
   - type: textarea
     id: Description
     attributes:
