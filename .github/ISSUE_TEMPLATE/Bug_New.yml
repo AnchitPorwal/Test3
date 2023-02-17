@@ -26,7 +26,7 @@ body:
         - 6.1
     validations:
       required: true
-  - type: edition
+  - type: dropdown
     id: edition
     attributes:
       label: Edition
@@ -35,7 +35,7 @@ body:
         - Xpress
         - Pro
         - Enterprise
-  - type: component
+  - type: dropdown
     id: component
     attributes:
       label: Component
