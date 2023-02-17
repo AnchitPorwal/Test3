@@ -15,6 +15,7 @@ body:
     id: version
     attributes:
       label: Version
+      multiple: true
       description: What version of our software are you running?
       options:
         - 3.9.4
