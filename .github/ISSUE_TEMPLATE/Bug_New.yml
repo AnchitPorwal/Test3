@@ -4,6 +4,8 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - vipul
+validations:
+  required: true
 body:
   - type: textarea
     id: Description
@@ -15,7 +17,6 @@ body:
     id: version
     attributes:
       label: Version
-      multiple: true
       description: What version of our software are you running?
       options:
         - 3.9.4
@@ -32,11 +33,13 @@ body:
         - Xpress
         - Pro
         - Enterprise
+    validations:
+      required: true
   - type: dropdown
     id: component
     attributes:
       label: Component
-      multiple: true
+      multiple: false
       options:
         - KC
         - Common
