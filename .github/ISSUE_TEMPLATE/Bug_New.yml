@@ -4,8 +4,6 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - vipul
-validations:
-  required: true
 body:
   - type: textarea
     id: Description
