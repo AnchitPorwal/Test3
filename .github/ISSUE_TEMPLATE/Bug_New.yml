@@ -68,6 +68,10 @@ body:
     id: verifiedqa
     attributes:
       label: VerifiedByQA
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
   - type: input
     id: completedbuild
     attributes:
