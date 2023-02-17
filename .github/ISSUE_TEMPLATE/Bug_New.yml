@@ -67,9 +67,8 @@ body:
   - type: checkboxes
     id: verifiedqa
     attributes:
-      label: VerifiedByQA
+      label: Verified By QA
       options:
-        - label: Orange cat (required. Everyone likes orange cats.)
           required: true
   - type: input
     id: completedbuild
